@@ -1,0 +1,219 @@
+body, html {
+	margin: 0px;
+	font-family: 'Bellefair', serif;
+}
+
+p {
+	font-family: 'Bellefair', serif;
+	font-size: 13.5pt;
+}
+
+h1 {
+	font-size: 56px;
+	text-shadow: 1px 1px #000000;
+	color: white;
+}
+
+h2 {
+	font-size: 36px;
+	text-shadow: 1px 1px #000000;
+	color: 	#e9967a;
+}
+
+h3 {
+	font-size: 24px;
+	text-shadow: 1px 1px #000000;
+	color: white;
+}
+
+nav {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	background: transparent;
+	z-index: 3;
+}
+
+.home-content-container, #content-container {
+	width: 100vw;
+	height: 100vh;
+}
+
+#content-container {
+	z-index: 2;
+}
+
+.web {
+	position: absolute;
+	bottom: 0;
+	display: none;
+	overflow: scroll;
+}
+
+.carousel {
+	width: 100%;
+	min-height: 100%;
+}
+
+.container {
+	width: 100%;
+	min-height: 100%;
+}
+
+.section-title {
+	padding-top: 3%; 
+	padding-left: 2%;
+}
+
+.row {
+	width: 100%;
+	display: inline-block;
+}
+
+.column-1 {
+	width: 100%;
+	height: 100%;
+}
+
+.col-1-holder {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+.column-2 {
+	width: 49%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-2-holder {
+	padding-bottom: 2%;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+.column-3 {
+	width: 33%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.col-3-holder {
+	padding-bottom: 2%;
+	padding-left: 6%;
+	padding-right: 6%;
+}
+
+#main-1 {
+	/*background: linear-gradient(rgba(255,255,240, 0.25), rgba(255, 255, 240, 0.25)),
+                rgba(255,255,240,0.25) url("images/wedding-hands-vows.jpeg") center;*/
+    background-image: url("images/wedding-hands-vows.jpeg");
+  	background-size: cover;
+	display: table;
+}
+
+#main-1-content {
+	width: 60%;
+	padding-left:20%;
+	padding-right:20%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 1.5px #000000;
+}
+
+#more-info, #submit {
+	border-style: solid;
+	border-width: 1.1px;
+	border-radius: 5px;
+	border-color: black; 
+	background-color: transparent;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Merriweather', serif;
+	text-shadow: 1px 1px #000000;
+}
+
+#more-info:hover, #submit:hover {
+	color: #e9967a;
+	box-shadow: 1px 1px #000000;
+}
+
+#main-2 {
+	background: linear-gradient(rgba(255, 246, 246, 0.46), rgba(255, 246, 246, 0.52),
+                rgba(255,246,246,1)), url("images/wedding-toast-vows.jpg") center;
+	background-size: cover;
+}
+
+.what-we-do-title {
+	font-size: 24px;
+	text-shadow: 1px 1px #000000;
+	color: white;
+}
+
+#main-2 .col-1-holder {
+	padding-top: 1%;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.image-right, .image-left {
+	border-radius: 75%; 
+	height: 150px; 
+	vertical-align: bottom; 
+	object-fit: contain;
+}
+
+.image-right {
+	float: right;
+	padding-left: 1%;
+}
+
+.image-left {
+	float: left; 
+	padding-right: 1%;
+}
+
+
+#main-3 {
+	background: linear-gradient(rgba(255, 246, 246, 1), rgba(255, 246, 246, 0.52),
+                rgba(255,246,246,0.46)), url("images/wedding-book-vows.jpeg") center;
+	background-size: cover;
+}
+
+
+
+#form-submit {
+	text-align: center;
+}
+
+input, textarea {
+	background: transparent;
+	border-radius: 6px;
+	border-color: black;
+	border-width: 1px;
+	text-align: center;
+}
+
+textarea {
+	text-align: left;
+}
+
+input:not([type='radio']), textarea {
+	width: 100%;
+	font-size: 15px;
+}
+
+
+@media screen and (max-width: 800px) {
+
+	.column-2, .column-3 {
+		width: 100%;
+	}
+}
