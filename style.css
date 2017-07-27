@@ -109,13 +109,14 @@ nav {
 }
 
 #main-1 {
-    background: url("images/wedding-hands-vows.jpeg") center;
+    background: url("images/wedding-hands-vows.jpg") center;
   	background-size: cover;
 	display: table;
 }
 
 #main-1-content {
 	width: 60%;
+	min-height: 100%;
 	padding-left:20%;
 	padding-right:20%;
 	display: table-cell;
