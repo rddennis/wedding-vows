@@ -109,9 +109,7 @@ nav {
 }
 
 #main-1 {
-	/*background: linear-gradient(rgba(255,255,240, 0.25), rgba(255, 255, 240, 0.25)),
-                rgba(255,255,240,0.25) url("images/wedding-hands-vows.jpeg") center;*/
-    background-image: url("images/wedding-hands-vows.jpeg");
+    background: url("images/wedding-hands-vows.jpeg") center;
   	background-size: cover;
 	display: table;
 }
