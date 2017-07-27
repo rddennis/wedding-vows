@@ -215,4 +215,9 @@ input:not([type='radio']), textarea {
 	.column-2, .column-3 {
 		width: 100%;
 	}
+
+	#title-honor-attendant:after {
+	    content: "\a \a";
+	    white-space: pre;
+	}
 }
