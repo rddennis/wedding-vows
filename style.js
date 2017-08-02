@@ -1,4 +1,12 @@
-$("document").ready(function(){
+$(window).on("load", function(){
+	$("#loader").fadeOut("slow");
+})
+
+
+$(document).ready(function(){
+
+	$("#loader").css("display", "none");
+
 	var screenWidth = $(window).width();
 
 	if (screenWidth <= 800) {
@@ -49,4 +57,4 @@ $("document").ready(function(){
 		}
 	});
 
-});
+})
