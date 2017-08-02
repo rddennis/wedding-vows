@@ -5,8 +5,6 @@ $(window).on("load", function(){
 
 $(document).ready(function(){
 
-	$("#loader").css("display", "none");
-
 	var screenWidth = $(window).width();
 
 	if (screenWidth <= 800) {
